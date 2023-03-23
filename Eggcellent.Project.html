@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨Egg-cellent✨</title>
+    <style>
+      body {
+      background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+      }
+      h1 {
+        display: block;
+        text-align: center;
+        text-decoration: overline underline solid #ff6f3c;
+      }
+      article {
+        text-align: center;
+        font-size: medium;
+        font-style: inherit #155263;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+      }
+      p{
+        text-align: center;
+        font-size:larger;
+        font-family: monospace;
+      }
+      span{
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        text-decoration: underline wavy #ffc93c;
+      }
+      .Interact {
+          color: purple;
+          padding-left: 20px;
+          text-align: center;
+          list-style-type: none;
+          display:inline-block;
+          border-radius: 25% 25% 25% 25%;
+      }
+      ul {
+        padding: 0 ; 
+        margin: 20px 50px 20px 50px;
+        text-align: center;
+        font-stretch: semi-expanded;
+        text-decoration: none;
+      }
+      ol{
+        padding: 5px;
+        margin: inherit;
+        list-style-position: inside;
+      }
+      .facts{
+        color: salmon;
+        text-align: center;
+        padding: 5px;
+        list-style:circle;
+        list-style-position: inside;
+        
+      }
+      a{
+        text-decoration: none;
+      }
+      button {
+        border-radius: 25px;
+        margin: 0 auto;
+        display: block;
+        background-color: #fff;
+        border: 1px solid #885df1;
+        color: #885df1;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        text-decoration: none;
+        transition: all 200ms ease;
+      }
+      button:hover {
+        color: rgb(224, 235, 79);
+        background: #4408da;
+      }
+      img {
+        display: block;
+        margin:0 auto;
+        padding: 5px;
+        background-color: transparent;
+      }
+      .basket {
+        display:block;
+        margin: o auto;
+        padding: 10px;
+        border: 5px dotted orange;
+        border-radius: 25px;
+        box-shadow: peachpuff;
+      }
+      .loveEgg {
+        display:block;
+        margin: o auto;
+        padding: 10px;
+        border: 5px dotted orange;
+        border-radius: 25px;
+        box-shadow: peachpuff;
+
+      }
+      .health{
+        border-radius: 300%;
+      }
+      .container {
+        max-height: 600px;
+        margin: 0 auto;
+        padding: 50px 60px;
+      }
+      footer {
+          color: purple;
+          padding-left: 20px;
+          text-align: center;
+          font-family: cursive;
+          text-decoration: overline wavy ;
+
+      }
+      .cheer{
+        display: block;
+        border-radius: 300%;
+      }
+
+
+    </style>
+</head>
+<body>
+    <h1>✨🐓 Amazing Eggs 🍳✨</h1>
+    <button class="question">What do you think of eggs?</button>
+    <br></br>
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/130/original/ezgif.com-resize__3_.gif?1633224412" width="250" height="250" class="loveEgg">
+<article class="container"> 
+  <span style="color: #ff6f3c;"><p>I love eggs! </p></span>Eggs are not only delicious but they are lil magic makers when it comes to cooking.
+  How you ask?
+  <br></br>
+  Eggs contain multiple proteins that gel at different temperatures within the yolk and the white,
+  and the temperature determines the gelling time. So, at one temperature you can have a fried egg and
+  and at another temperature you can have a soft boiled yolky deliciousness.
+  <br></br>
+  <em><strong>Did you know!?</strong></em>
+</article>
+   <ol>
+     <li class="facts">
+       The yolk and the whites have the same amount of protein 🤯
+     </li>
+     <li class="facts">
+       'Cage-free' eggs may come from hens that live in cages
+     </li>
+     <li class="facts">
+       'Free-range' hens 🐓 may never step foot outside
+     </li>
+     <li class="facts">
+       All eggs are hormone-free
+     </li>
+   </ol>
+<p><strong><em>🐣 Find out more below!🐣</em></strong></p>
+
+
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/131/original/bskt.eggs.jpeg?1633224468" class="basket">
+    <header>
+     <ul>
+        <li class="Interact"><a href="https://www.medicalnewstoday.com/articles/283659" target="_blank"><button class= "eggh">Egg Health <img src= "https://i.pinimg.com/originals/0e/0c/c7/0e0cc79fb578679b0901848f68196e43.jpg" width="75" height="50" class="health"></button></a></li>
+        <li class="Interact"><a href="https://www.foodnetwork.com/recipes/photos/our-best-egg-recipes" target="_blank"><button class= "recipes">Tasty Recipes<img src="https://cdn.dribbble.com/users/205519/screenshots/3399412/goodeggpixels.gif" width="75" height="50" class="health"></button></a></li>
+        <li class="Interact"><a href="https://www.sanrio.com/collections/gudetama" target="_blank"><button class="more">Want more?<img src="https://c.tenor.com/Y0LvLQw_HDgAAAAC/popped-hi.gif" width="75" height="50" class="health"></button></a></li>
+        </li>
+      </ul>
+    </header>
+    <script>
+      function likeEggs() {
+        let likeEggs = prompt("How many eggs do you eat in a day?");
+        let p = document.querySelector("p");
+        if (likeEggs >= 5) {
+          p.innerHTML = "😍 <span><p>I love eggs! </p></span>";
+        } else {
+          p.innerHTML = "😏 <span><p>Eggs are amazing! </p></span>";
+        }
+      }
+      let likeEggsButton = document.querySelector("button");
+      likeEggsButton.addEventListener("click", likeEggs);
+    </script>
+</body>
+<br></br>
+<footer>This page was lovingly designed by Jessica Perry 🦔
+  <br></br>
+  <button class="cheers"><a href="https://www.linkedin.com/in/jperry09/" target="_blank"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/132/original/clapping.gif?1633224988" height="75" width="75" class="cheer"></a></button></footer>
+</html> 
